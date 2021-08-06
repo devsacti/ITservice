@@ -1,8 +1,9 @@
-# Integration of APPs
-To imagine and integrate
+# components of WEB-APP
 
 MAJOR BASE APP like CRM, java-app
 
 and python-app
+
+and tech like DevOps
 
 etc
