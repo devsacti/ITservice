@@ -1,7 +1,7 @@
 # Integration of APPs
 To image and integrate
 
-major like CRM, java-app
+MAJOR BASE APP like CRM, java-app
 
 and python-app
 
