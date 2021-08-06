@@ -5,3 +5,6 @@ click the prj name and Go to repo
 IDE : pycharm
 
 Overview : html-css, ajax of js , views/OpenAPI, sqlite3, AWS EC2 to deploy
+
+## [devsacti-djangotutorial-record](https://github.com/devsacti/WEB-APP/blob/main/PYTHON-APP/djangotutorial.txt)
+IDE : pycharm
