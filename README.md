@@ -1,0 +1,2 @@
+# PYTHON-APP
+pycharm-django
