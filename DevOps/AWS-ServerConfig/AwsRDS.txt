@@ -1,0 +1,87 @@
+# intellij의 datagrip을 통한 외부DB 연결, not h2
+
+## 컨트롤+쉬프트+A로 Drivers and data Source라고 검색
+그러면 'Data Source and Drives'라는 창이 뜬다.
+https://hoonmaro.tistory.com/53
+절차에 따라 설정하면 인텔리제이 오른쪽에 Database탭으로 확인가능하고
+
+탭 클릭해서 QL 이라고 적힌 작은 버튼 누르면 Structured Query Language를 
+기입가능한 콘솔창이 뜸
+
+## 파라미터 설정
+안하고 진행했다가 에러떠서 알게된건데,
+문자열 default값이 utf8도 아니라, 한글 자체가 인식안됨
+그래서 한글이랑 이모지 쓸려먼
+character~ 와같은 관련 문자열 파라미터를 utf8mb4 로 설정필요.
+
+collation_connection과
+collation_server 역할은 모르겠지만
+utf8mb4_general_ci로 설정
+
+여기서 또 문제가 이미 만들어진 테이블은
+새로운 파라미터가 적용되지 않는다는 것이다.
+이를 위해서
+
+ALTER TABLE table_name convert to charset utf8;
+로 설정 변경한 후, 인서트
+출처: https://postitforhooney.tistory.com/entry/DBMariaDBMysql-Mysql-언어설정으로-인한-문제-그리고-해결 [PostIT]
+
+
+
+## 연결확인 후 콘솔을 통한 접근 및 설정값확인하기
+-- console과 DB연결
+use devsacti_springboot2_webservice;
+-- 문자열 관련 파라미터 확인
+show variables like 'c%';
+-- 타임존 확인
+select @@time_zone, now();
+
+-- 한글 알파벳 잘들어가나 확인
+CREATE TABLE test(
+    id      bigint(20) NOT NULL AUTO_INCREMENT,
+    content varchar(255) DEFAULT NULL,
+    PRIMARY KEY (id)
+) engine = InnoDB;
+
+insert into test(content) values('test');
+
+select * from test;
+
+!!! 나는 이모지 필요없어서 건너띄었는데, 이것관련 파라미터에서
+한글도 받나봄, 그래서 나는 '테스트'로 했더니 에러뜨고, 'test'는 통과
+
+재설정 필요
+
+
+## 한편 ec2서버에서 rds로 정상접근되나 확인하기
+우선 ec2에 mysql설치(mariadb는 mysql의 파생형으로 이걸로도 접근가능하다고 한다.)
+정확히는 mysql의 클라이언트 기능을 쓰기 위함으로 보인다.
+
+아래와같이 기입하면 접속되고, 비번 입력하면 접근 확인가능
+mysql -u devsacti -p -h devsacti-springboot2-webservice.chjlfbf6cs9q.ap-northeast-2.rds.amazonaws.com
+
+[ec2-user@devsacti-springboot2-webservice ~]$ mysql -u devsacti -p -h devsacti-springboot2-webservice.chjlfbf6cs9q.ap-northeast-2.rds.amazonaws.com
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 28
+Server version: 10.2.21-MariaDB-log Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> show database;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database' at line 1
+MariaDB [(none)]> show databases;
++---------------------------------+
+| Database                        |
++---------------------------------+
+| devsacti_springboot2_webservice |
+| information_schema              |
+| innodb                          |
+| mysql                           |
+| performance_schema              |
++---------------------------------+
+5 rows in set (0.00 sec)
+
+MariaDB [(none)]>
