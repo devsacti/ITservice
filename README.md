@@ -1,5 +1,5 @@
 # Integration of APPs
-To image and integrate
+To imagine and integrate
 
 MAJOR BASE APP like CRM, java-app
 
