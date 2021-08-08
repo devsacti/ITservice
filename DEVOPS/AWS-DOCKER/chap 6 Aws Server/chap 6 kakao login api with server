@@ -1,0 +1,11 @@
+# kakao login api를 활용한 로그인 기능구현
+우선 카카오 개발자 사이트 활용
+로그인 관련 내 애플리케이션 만들기
+
+## login.jsp
+spring boot 와 달리, web-info로 login 화면을 ~.jsp로 구현해야한다.
+
+왜 이런 차이가 생기는지는 아직 모르겠다.
+
+## aws IAM 그룹설정
+s3 접근 시 필요한 access,secret 키를 만들기 위해
