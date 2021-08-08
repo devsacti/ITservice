@@ -1,9 +1,12 @@
-https://docs.djangoproject.com/ko/3.1/intro/tutorial01/
+
 
 # 0. '파이참 프로젝트' 만들기! not django
  파이참 프로젝트를 위한 가상환경_venv_을 만든다. 한편, 파이참 프로젝트를 위한 main.py 자동생성(삭제해도됨)
  파이참 프로젝트 하위에
  그다음 프레임워크별_django, flask 등_ 프로젝트
+
+ 대조군 프로젝트 : https://docs.djangoproject.com/ko/3.1/intro/tutorial01/
+
 
 # 1. 쉘프롬트 상에서 현재 가상환경에 'django' 프레임워크 다운로드 not flask
 python -m django --version
