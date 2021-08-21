@@ -4,8 +4,6 @@ MAJOR BASE APP like CRM-salesforce, java-app
 
 and python-app
 
-and tech like DevOps
-
 etc
 
 i will upload, as soon as possible
