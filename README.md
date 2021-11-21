@@ -1,17 +1,20 @@
 # components of WEB-APP
 
-MAJOR BASE APP like CRM-salesforce, java-app
+besides MAJOR BASE APP like java-app,
 
-and python-app
+there are many related framework or sub-tools that is utilized to webservice
 
-etc
+for example, as a datamining API, django is more practical than java cuz to data analyzing libs
 
+at this point, i will upload the related frameworks or sub-tools that is useful to expand webservice
+
+
+## sub-tools 
+like special function of DB or mybatis that is relate function or sub part of webservice
+
+### myplan
 i will upload, as soon as possible
 
 DB which is concentrated on DB contents like JPA, mybatis
 
-frontend-vue which is for expanding
-
 Futhermore, below are that canbe related
-
-ERP
