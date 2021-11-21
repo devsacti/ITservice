@@ -1,3 +1,10 @@
+# WEB-APP LIST
+
+[JS-APP](https://github.com/devsacti/JS-APP)
+
+[PYTHON-APP](https://github.com/devsacti/WEB-APP/tree/main/PYTHON-APP)
+* python-app has seperate repos per prj, so this directory is only media for prj links
+
 # components of WEB-APP
 
 besides MAJOR BASE APP like java-app,
