@@ -3,7 +3,7 @@
 [JS-APP](https://github.com/devsacti/JS-APP)
 
 [PYTHON-APP](https://github.com/devsacti/WEB-APP/tree/main/PYTHON-APP)
-* python-app has seperate repos per prj, so this directory is only media for prj links
+*python-app has seperate repos per prj, so this directory is only media for prj links
 
 # components of WEB-APP
 
