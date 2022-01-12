@@ -10,25 +10,29 @@ then, url(or internet address) calls the function of WEB-APP
 
 and function provides html documents which is,in other words, Front-End
 
-I think WEB-APP can be figuratively 'Electric Vending machine' waiting for clients that canbe human or other call of web service
+I think WEB-APP can be figuratively 'Electric Vending machine'
+
+waiting for clients that canbe human or other calls of web service
 
 ### the related : URL vs URI
 abbr 
 
 # communications between Front and Back
 
-after you input the url, and see the Front-End of WEB-APP
+let's assume that you input the url and see the Front-End of WEB-APP
 
-Generally, interface of Front-end provides choices of butten that is related with other urls
+the Electric vending machine you encounter has functions on the 'back'
 
-so, you can access or the control the other resources of web-service
+Generally, interface of Front-end provides choices of butten mappedn with other urls
+
+so, you can access or the control the other resources of back web-service
 
 ## the relate : RestFul
 abbr
 
 simplely, i think it can also mean 'optimized interface that can represent the sources enough' 
 
-## Analysis of Front and back of WEB-APP
+## Analysis of Front and back
 WEB-APP = Front-End + Back-End
 
 Perspective1
