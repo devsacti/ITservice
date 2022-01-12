@@ -20,13 +20,13 @@ WEB-APP = Front-End + Back-End
 
 Perspective1
 
-
+![front-end_back-end_full-Stack](https://user-images.githubusercontent.com/88543657/149053803-39be2d86-6fe5-4d55-be00-99dde2ac8e7d.png)
 
 [image reference](https://www.a-mean-blog.com/images/rqvbk2p56xjsis3ut1ta/front-end_back-end_full-Stack.png)
 
 Perspective2
 
-
+![perspective2_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
 
 [image reference](https://blog.dalso.org/language/web/6523)
 
