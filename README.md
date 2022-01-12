@@ -43,15 +43,14 @@ button sends url that requires change the data of webapp, generally based on sub
 4. Delete
 button sends url that requires remove the data of webapp, generally based on sub part of url
 
-if you click the 'sign in' button,and do something,then you create the new account
+### Story of CRUD
+click the 'sign in' button of site,and do something,then you create the new account
 
-after login, 
+click the 'see the detail of account' button after log in,and see the infomations of your account, then you read the infomations
 
-if you click the 'see the detail of account' button, and see the infomations of your account, then you read the infomations
+click the 'change the nikckname' button, and do something, then you Update
 
-if you click the 'change the nikckname' button, and do something, then you Update
-
-if you click the 'Withdrawal from site' button, then you Delete
+click the 'Withdrawal from site' button, then you Delete
 
 ## the related : RestFul
 abbr
