@@ -76,17 +76,20 @@ Perspective2
 
 ## components of Front-end, Back-end
 Front = ((html + css) + javascript)
+(ex) index.jsp, index.mustache, ...
 
 Back = API on Server like linux + DB
+(ex) controller.java, ...
 
 * javascript(js) is connection point between Front and Back By URL
 
 # Implementation of WEB-APP
 
-there are many related frameworks(or tools like mybatis) that is utilized to webservice Implementation
+In my Github, basic frameworks is 'Spring (boot)'
 
-at this point, i will upload the related frameworks that is useful to expand webservice
+and, there are many related frameworks(like Django,Persitence Framework,...) that is utilized to webservice Implementation
 
+i will expand implementations from spring to the other related frameworks 
 
 ## Implementations LIST
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
