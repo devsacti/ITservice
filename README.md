@@ -15,7 +15,14 @@ I think WEB-APP can be figuratively 'Electric Vending machine' waiting for clien
 ### url vs uri
 abbr 
 
-# Analysis of WEB-APP
+# communications between Front and Back of WEB-APP approached(or that you are using now)
+
+Generally, interface of Front-end provides choices of butten that is related with other url
+
+## RestFul
+i think it can also mean 'optimized interface that can represent the sources enough' 
+
+## Analysis of WEB-APP
 WEB-APP = Front-End + Back-End
 
 Perspective1
@@ -41,7 +48,6 @@ API on Server like linux
 DB
 
 
-## combination of Front,Back
 
 
 
