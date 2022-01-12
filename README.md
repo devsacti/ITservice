@@ -28,6 +28,21 @@ Generally, interface of Front-end provides choices of butten mappedn with other 
 
 so, you can access or the control the other resources of back web-service
 
+## the related : CRUD
+categories of button based on function
+
+1. Create
+button send url, generally inserts the new data into the WEB-APP
+
+2. Read
+button sends url that requires the infomations user want to see
+
+3. Update
+button sends url that requires change the data of webapp, generally based on sub part of url
+
+4. Delete
+button sends url that requires remove the data of webapp, generally based on sub part of url
+
 ## the related : RestFul
 abbr
 
