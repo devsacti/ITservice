@@ -12,7 +12,7 @@ and function provides html documents which is,in other words, Front-End
 
 I think WEB-APP can be figuratively 'Electric Vending machine' waiting for clients that canbe human or other call of web service
 
-### url vs uri
+### the related : url vs uri
 abbr 
 
 # communications between Front and Back
@@ -23,10 +23,12 @@ Generally, interface of Front-end provides choices of butten that is related wit
 
 so, you can access or the control the other resources of web-service
 
-## RestFul
-i think it can also mean 'optimized interface that can represent the sources enough' 
+## the relate : RestFul
+abbr
 
-## Analysis of WEB-APP
+simplely, i think it can also mean 'optimized interface that can represent the sources enough' 
+
+## Analysis of Front and back of WEB-APP
 WEB-APP = Front-End + Back-End
 
 Perspective1
@@ -50,9 +52,6 @@ js(javascript)
 API on Server like linux
 
 DB
-
-
-
 
 
 # Implementation of WEB-APP
