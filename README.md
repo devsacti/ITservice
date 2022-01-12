@@ -77,9 +77,9 @@ Perspective2
 ## components of Front-end, Back-end
 Front = ((html + css) + javascript)
 
-javascript(js) is connection point between Front and Back By URL
-
 Back = API on Server like linux + DB
+
+* javascript(js) is connection point between Front and Back By URL
 
 # Implementation of WEB-APP
 
