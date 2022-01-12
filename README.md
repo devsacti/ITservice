@@ -27,7 +27,7 @@ Generally, interface of Front-end provides choices of butten mappedn with other 
 
 so, you can access or the control the other resources of back web-service
 
-## the relate : RestFul
+## the related : RestFul
 abbr
 
 simplely, i think it can also mean 'optimized interface that can represent the sources enough' 
@@ -52,9 +52,9 @@ html + css
 
 js(javascript)
 
-! js is mapping with Url which calls the API
+! js is mapped with Url which calls the API
 
-## Back-end
+## components Back-end
 API on Server like linux
 
 DB
