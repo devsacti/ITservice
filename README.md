@@ -54,30 +54,22 @@ js(javascript)
 
 ! js is mapped with Url which calls the API
 
-## components Back-end
+## components of Back-end
 API on Server like linux
 
 DB
 
 # Implementation of WEB-APP
 
-besides MAJOR BASE APP like java-app,
-
-there are many related frameworks(or tools like mybatis) that is utilized to webservice
-
-for example, as a datamining API, django is more practical than java cuz to data analyzing libs
+there are many related frameworks(or tools like mybatis) that is utilized to webservice Implementation
 
 at this point, i will upload the related frameworks that is useful to expand webservice
 
 
-## sub-tools 
-like special function of DB or mybatis that is relate function or sub part of webservice
-
-
 # WEB-APP LIST
-
-[JS-APP](https://github.com/devsacti/JS-APP)
+[JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/WEB-APP/tree/main/PYTHON-APP)
-
 *python-app has seperate repos per prj, so this directory is only media for prj links
+
+[JS-APP](https://github.com/devsacti/JS-APP)
