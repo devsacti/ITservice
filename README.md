@@ -1,32 +1,34 @@
 # Approaching to Web service Application on Network
 
-I think WEB-APP can be figuratively 'Electric Vending machine'
+I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'
 
-waiting for clients that canbe human(or other calls of web service)
+the Electronic vending machine you encounter has 'front' and 'back'
 
-client like chrome human using calls the WEB-APP(Web service Application) by url
+it is waiting for clients that canbe human(or other calls of web service)
 
-## URL
+client like chrome human are using calls the WEB-APP(Web service Application) by URL
+
+## URL : Uniform Resource Locater
 (ex)www.google.com
 
-Generally, if human user clicks or inserts the certain url,
+Generally, if human user clicks or inserts the certain URL,
 
-then, url(or internet address) calls the function of WEB-APP
+then, URL(or 'internet address') calls the functions of WEB-APP
 
-and function provides html documents which is,in other words, Front-End
+and function provides html documents which is, in other words, Front-End
 
 ### the related : URL vs URI
 abbr 
 
 # communications between Front and Back
 
-let's assume that you input the url and see the Front-End of WEB-APP
+let's assume that you input the primary url and WEB-APP returns the Front-End of its
 
-the Electric vending machine you encounter has functions on the 'back'
+Generally, interface of Front-end provides choices of butten mapped with other urls
 
-Generally, interface of Front-end provides choices of butten mappedn with other urls
+and those urls is mapped with functions of back-side of Electronic Vending Machine
 
-so, you can access or the control the other resources of back web-service
+so, you can access or the control the functions or other resources of back of web-service
 
 ## the related : CRUD
 categories of button based on function
@@ -72,17 +74,12 @@ Perspective2
 
 [image reference](https://blog.dalso.org/language/web/6523)
 
-## components of Front-end
-html + css
+## components of Front-end, Back-end
+Front = ((html + css) + javascript)
 
-js(javascript)
+javascript(js) is connection point between Front and Back By URL
 
-! js is mapped with Url which calls the API
-
-## components of Back-end
-API on Server like linux
-
-DB
+Back = API on Server like linux + DB
 
 # Implementation of WEB-APP
 
