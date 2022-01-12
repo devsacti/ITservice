@@ -32,7 +32,7 @@ so, you can access or the control the other resources of back web-service
 categories of button based on function
 
 1. Create
-button send url, generally inserts the new data into the WEB-APP
+button send url, generally inserts the new data into the DB of WEB-APP
 
 2. Read
 button sends url that requires the infomations user want to see
@@ -42,6 +42,16 @@ button sends url that requires change the data of webapp, generally based on sub
 
 4. Delete
 button sends url that requires remove the data of webapp, generally based on sub part of url
+
+if you click the 'sign in' button,and do something,then you create the new account
+
+after login, 
+
+if you click the 'see the detail of account' button, and see the infomations of your account, then you read the infomations
+
+if you click the 'change the nikckname' button, and do something, then you Update
+
+if you click the 'Withdrawal from site' button, then you Delete
 
 ## the related : RestFul
 abbr
