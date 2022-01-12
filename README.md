@@ -44,13 +44,21 @@ button sends url that requires change the data of webapp, generally based on sub
 button sends url that requires remove the data of webapp, generally based on sub part of url
 
 ### Story of CRUD
-click the 'sign in' button of site,and do something,then you create the new account
+click the 'sign in' button of site,and do something,
 
-click the 'see the detail of account' button after log in,and see the infomations of your account, then you read the infomations
+then you Create
 
-click the 'change the nikckname' button, and do something, then you Update
+click the 'see the detail of account' button after log in,and see the infomations of your account,
 
-click the 'Withdrawal from site' button, then you Delete
+then you Read
+
+click the 'change the nikckname' button, and do something,
+
+then you Update
+
+click the 'Withdrawal from site' button,
+
+then you Delete
 
 ## the related : RestFul
 abbr
