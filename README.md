@@ -1,5 +1,10 @@
 # Approaching to Web service Application on Network
-client like chrome calls the WEB-APP(Web service Application) by url
+
+I think WEB-APP can be figuratively 'Electric Vending machine'
+
+waiting for clients that canbe human(or other calls of web service)
+
+client like chrome human using calls the WEB-APP(Web service Application) by url
 
 ## URL
 (ex)www.google.com
@@ -9,12 +14,6 @@ Generally, if human user clicks or inserts the certain url,
 then, url(or internet address) calls the function of WEB-APP
 
 and function provides html documents which is,in other words, Front-End
-
-
-
-I think WEB-APP can be figuratively 'Electric Vending machine'
-
-waiting for clients that canbe human or other calls of web service
 
 ### the related : URL vs URI
 abbr 
