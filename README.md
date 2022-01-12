@@ -94,7 +94,6 @@ i will expand implementations from spring to the other related frameworks
 ## Implementations LIST
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
-[PYTHON-APP](https://github.com/devsacti/WEB-APP/tree/main/PYTHON-APP)
-*python-app has seperate repos per prj, so this directory is only media for prj links
+[PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
 
 [JS-APP](https://github.com/devsacti/JS-APP)
