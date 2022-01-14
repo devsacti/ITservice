@@ -78,7 +78,7 @@ Perspective2
 Front = ((html + css) + javascript)
 (ex) (index.jsp), (index.mustache), ...
 
-Back = ( API + [Server + OS](https://github.com/devsacti/OperatingSystem) + [DataBase](https://github.com/devsacti/Query-and-Extensions) )
+Back = ( API + [(Server+OS)](https://github.com/devsacti/OperatingSystem) + [DataBase](https://github.com/devsacti/Query-and-Extensions) )
 (ex) ( controller.java + mybatis-MySQL ), ...
 
 * javascript(js) is the media point between Front and Back By URL
