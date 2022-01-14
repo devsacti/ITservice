@@ -35,7 +35,7 @@ and those urls is mapped with functions of back-end of Electronic Vending Machin
 so, you can access the functions that control the resources of web-service
 
 ## the related : CRUD
-categories of button based on function
+categories of functions based on processing resources like data of DB, ...
 
 1. Create
 button send url, generally inserts the new data into the DB of WEB-APP
