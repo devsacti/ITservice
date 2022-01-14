@@ -44,10 +44,10 @@ button send url, generally inserts the new data into the DB of WEB-APP
 button sends url that requires the infomations user want to see
 
 3. Update
-button sends url that requires change the data of webapp, generally based on sub part of url
+button sends url that requires change the data of DB, generally based on sub part of url
 
 4. Delete
-button sends url that requires remove the data of webapp, generally based on sub part of url
+button sends url that requires remove the data of DB, generally based on sub part of url
 
 ### Story of CRUD
 click the 'sign in' button of site,and do something(Create)
