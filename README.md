@@ -4,9 +4,9 @@ I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'
 
 the Electronic vending machine you encounter has 'front' and 'back'
 
-it is waiting for clients that canbe human(or other calls of web service)
+it is waiting for clients that canbe human(or other calls of web service like chrome you are using)
 
-client like chrome human are using calls the WEB-APP(Web service Application) by URL
+clients call the WEB-APP(Web service Application) by URL
 
 ## URL : Uniform Resource Locater
 (ex)www.google.com
@@ -17,18 +17,22 @@ then, URL(or 'internet address') calls the functions of WEB-APP
 
 and function provides html documents which is, in other words, Front-End
 
+more specifically, "index" page like index.jsp, index.mustache, ...
+
 ### the related : URL vs URI
 abbr 
 
 # communications between Front and Back
 
-let's assume that you input the primary url and WEB-APP returns the Front-End of its
+let's assume that you input the primary url and WEB-APP returns the index page,
+
+and it can be regarded as "interface of Front-End"
 
 Generally, interface of Front-end provides choices of butten mapped with other urls
 
-and those urls is mapped with functions of back-side of Electronic Vending Machine
+and those urls is mapped with functions of back-end of Electronic Vending Machine
 
-so, you can access or the control the functions or other resources of back of web-service
+so, you can access the functions that control the resources of web-service
 
 ## the related : CRUD
 categories of button based on function
@@ -55,9 +59,9 @@ click the 'change the nikckname' button, and do something,(Update)
 click the 'Withdrawal from site' button,(Delete)
 
 ## the related : RestFul
-abbr
-
 simplely, i think it can also mean 'optimized interface that can represent the sources enough' 
+
+To be supplemented later
 
 ## Analysis of Front and back
 WEB-APP = Front-End + Back-End
@@ -85,13 +89,13 @@ Back = ( API + [(Server+OS)](https://github.com/devsacti/OperatingSystem) + [Dat
 
 # Implementation of WEB-APP
 
-In my Github, basic frameworks is 'Spring (boot)'
+In my Github, basic framework is 'Spring (boot)'
 
 and, there are many related frameworks(like Django,Persitence Framework,...) that is utilized to webservice Implementation
 
 i will expand implementations from spring to the other related frameworks 
 
-## Implementations LIST
+## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
