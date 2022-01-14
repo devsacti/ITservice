@@ -13,11 +13,11 @@ clients call the WEB-APP(Web service Application) by URL
 
 Generally, if human user clicks or inserts the certain URL,
 
-then, URL(or 'internet address') calls the functions of WEB-APP
+then, URL(or 'internet address') calls the function of WEB-APP
 
 and function provides html documents which is, in other words, Front-End
 
-more specifically, "index" page like index.jsp, index.mustache, ...
+more specifically, "index page"  like index.jsp, index.mustache, ...
 
 ### the related : URL vs URI
 abbr 
