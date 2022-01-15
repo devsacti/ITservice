@@ -80,9 +80,11 @@ Perspective2
 
 ## components of Front-end, Back-end
 Front = ((html + css) + javascript)
+
 (ex) (index.jsp), (index.mustache), ...
 
 Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)) + [Database](https://github.com/devsacti/Query-and-Extensions) )
+
 (ex) ( (controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
 
 * javascript(js) is the media point between Front and Back By URL
