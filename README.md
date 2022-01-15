@@ -85,7 +85,7 @@ Front = ((html + css) + javascript)
 
 Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)) + [Database](https://github.com/devsacti/Query-and-Extensions) )
 
-(ex) ( (controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
+(ex) ( (controller.java and config of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
 
 * javascript(js) is the media point between Front and Back By URL
 
@@ -97,13 +97,13 @@ In this perspective, Spring Framework is a core joint of Front-End tool like jsp
 
 (ex)
 
-　　　　　　　　　　　　　　　　　:arrow_upper_right: index.jsp
+　　　　　　　　　　　　　　　　　:arrow_upper_right: cofig of jsp and index.jsp
 
-Spring Framework with Build Tool　　:arrow_right: controller.java of JAVA-APP, config of myBatis
+Spring Framework with Build Tool　　:arrow_right: config and controller.java of JAVA-APP + config of myBatis
 
-　　　　　　　　　　　　　　　　　:arrow_lower_right:  AWS Linux Server
+　　　　　　　　　　　　　　　　　:arrow_lower_right: config of AWS and AWS Linux Server
 
-　　　　　　　　　　　　　　　　　:arrow_lower_right:  myBatis->(MariaDB of AWS RDS)
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS and MariaDB of AWS RDS)
 
 ## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
