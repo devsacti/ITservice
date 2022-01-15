@@ -105,7 +105,7 @@ In this perspective, Spring Framework is a core joint of Front-End tool like jsp
 
 (ex)
 
-　　　　　　　　　　　　　　　　　:arrow_upper_right: cofig of jsp and index.jsp
+　　　　　　　　　　　　　　　　　:arrow_upper_right: config of jsp and index.jsp
 
 Spring Framework with Build Tool　　:arrow_right: config and controller.java of JAVA-APP + config of myBatis
 
