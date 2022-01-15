@@ -83,11 +83,17 @@ Front = ((html + css) + javascript)
 
 (ex) (index.jsp), (index.mustache), ...
 
-Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)) + [Database](https://github.com/devsacti/Query-and-Extensions) )
+Back = ( (API of WEB-APP + Server) + Database )
 
-(ex) ( (controller.java and config of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
+(ex) ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
 
 * javascript(js) is the media point between Front and Back By URL
+
+### the related
+[Server](https://github.com/devsacti/OperatingSystem)
+
+[Database](https://github.com/devsacti/Query-and-Extensions)
+
 
 # Implementation of WEB-APP
 
