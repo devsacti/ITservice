@@ -99,7 +99,7 @@ In this perspective, Spring Framework is a core joint of Front-End tool like jsp
 
 　　　　　　　　　　　　　　　　　:arrow_upper_right: index.jsp
 
-Spring Framework with Build Tool　:arrow_right: controller.java of JAVA-APP, config of myBatis
+Spring Framework with Build Tool　　:arrow_right: controller.java of JAVA-APP, config of myBatis
 
 　　　　　　　　　　　　　　　　　:arrow_lower_right:  AWS Linux Server
 
