@@ -99,11 +99,11 @@ In this perspective, Spring Framework is a core joint of Front-End tool like jsp
 
 　　　　　　　　　:arrow_upper_right: index.jsp
 
-Spring Framework　:arrow_right: controller.java of JAVA-APP
+Spring Framework　:arrow_right: controller.java of JAVA-APP, config of Persitence-Framework
 
 　　　　　　　　　:arrow_lower_right:  AWS Linux Server
 
-　　　　　　　　　:arrow_lower_right:  mybatis-(MariaDB of AWS RDS)
+　　　　　　　　　:arrow_lower_right:  mybatis->(MariaDB of AWS RDS)
 
 ## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
