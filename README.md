@@ -93,15 +93,13 @@ Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)
 
 In my Github, basic framework is 'Spring (boot)'
 
-In this perspective, I think,
-
-Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework, runtime like tomcat and Server
+In this perspective, Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework, runtime like tomcat and Server
 
 (ex)
 
 　　　　　　　　　:arrow_upper_right: index.jsp
 
-Spring Framework :arrow_right: mybatis-(MariaDB of AWS RDS)
+Spring Framework　:arrow_right: mybatis-(MariaDB of AWS RDS)
 
 　　　　　　　　　:arrow_lower_right:  AWS Linux Server
 
