@@ -93,17 +93,17 @@ Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)
 
 In my Github, basic framework is 'Spring (boot)'
 
-In this perspective, Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework, Server that has runtime
+In this perspective, Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework like myBatis, Server that has runtime like AWS Linux
 
 (ex)
 
-　　　　　　　　　:arrow_upper_right: index.jsp
+　　　　　　　　　　　　　　　　　:arrow_upper_right: index.jsp
 
-Spring Framework　:arrow_right: controller.java of JAVA-APP, config of Persitence-Framework
+Spring Framework with Build Tool　:arrow_right: controller.java of JAVA-APP, config of myBatis
 
-　　　　　　　　　:arrow_lower_right:  AWS Linux Server
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  AWS Linux Server
 
-　　　　　　　　　:arrow_lower_right:  mybatis->(MariaDB of AWS RDS)
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  myBatis->(MariaDB of AWS RDS)
 
 ## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
