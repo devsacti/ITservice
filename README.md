@@ -87,6 +87,8 @@ Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)
 
 (ex) ( (controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
 
+* In this case, I assign 'runtime' on Server Boundary
+
 * javascript(js) is the media point between Front and Back By URL
 
 # Implementation of WEB-APP
@@ -95,12 +97,15 @@ In my Github, basic framework is 'Spring (boot)'
 
 In this perspective, I think,
 
-Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework and Server
+Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework, runtime like tomcat and Server
 
 (ex)
 
+(     ):arrow_upper_right: index.jsp
 
-index.jsp :arrow_left: Spring Framework :arrow_right: mybatis-(MariaDB of AWS RDS)   :arrow_down:   WS Linux Server
+Spring Framework :arrow_right: mybatis-(MariaDB of AWS RDS)
+
+(     ):arrow_lower_right:  AWS Linux Server
 
 ## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
