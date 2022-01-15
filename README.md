@@ -93,9 +93,17 @@ Back = ( (API of WEB-APP + [Server](https://github.com/devsacti/OperatingSystem)
 
 In my Github, basic framework is 'Spring (boot)'
 
-and, there are many related frameworks(like Django,Persitence Framework,...) that is utilized to webservice Implementation
+In this perspective, I think,
 
-i will expand implementations from spring to the other related frameworks 
+Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework and Server
+
+(ex)
+
+
+index.jsp <- Spring Framework -> mybatis-MariaDB
+					|
+					v
+			AWS Linux Server
 
 ## Implementations
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
