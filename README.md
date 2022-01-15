@@ -89,7 +89,9 @@ Back = ( (API of WEB-APP + Server) + Database )
 
 * javascript(js) is the media point between Front and Back By URL
 
-### the related
+### Core
+[API of WEB-APP](## Implementations)
+
 [Server](https://github.com/devsacti/OperatingSystem)
 
 [Database](https://github.com/devsacti/Query-and-Extensions)
