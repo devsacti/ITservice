@@ -92,9 +92,9 @@ Back = ( (API of WEB-APP + Server) + Database )
 ### Core
 [API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
 
-[Server](https://github.com/devsacti/OperatingSystem)
+[Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
 
-[Database](https://github.com/devsacti/Query-and-Extensions)
+[Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
 
 
 # Implementation of WEB-APP
@@ -113,7 +113,7 @@ Spring Framework with Build Tool　　:arrow_right: config and controller.java o
 
 　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS and MariaDB of AWS RDS)
 
-## Implementations
+## Implementations of API
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
