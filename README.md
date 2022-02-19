@@ -66,15 +66,7 @@ To be supplemented later
 ## Analysis of Front and back
 WEB-APP = Front-End + Back-End
 
-Perspective1
-
-![front-end_back-end_full-Stack](https://user-images.githubusercontent.com/88543657/149053803-39be2d86-6fe5-4d55-be00-99dde2ac8e7d.png)
-
-[image reference](https://www.a-mean-blog.com/images/rqvbk2p56xjsis3ut1ta/front-end_back-end_full-Stack.png)
-
-Perspective2
-
-![perspective2_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
+![perspective1_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
 
 [image reference](https://blog.dalso.org/language/web/6523)
 
@@ -92,9 +84,9 @@ Back = ( (API of WEB-APP + Server) + Database )
 ### Core
 [API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
 
-[Running Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
+[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
 
-[Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
+[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
 
 
 # Implementation of WEB-APP
@@ -116,8 +108,4 @@ Spring Framework with Build Tool　　:arrow_right: config and controller.java o
 ## Implementations of API
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
-!! rebuilding not yet !!
-
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
-
-[JS-APP](https://github.com/devsacti/JS-APP)
