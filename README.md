@@ -13,6 +13,24 @@ It is waiting for calls of client that canbe human's actions, or more specifical
 
 Clients call the WEB-APP(Web service Application) by URL.
 
+## Analysis of Front and back
+WEB-APP = Front-End + Back-End
+
+![perspective1_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
+
+[image reference](https://blog.dalso.org/language/web/6523)
+
+## components of Front-end, Back-end
+Front = ((html + css) + javascript)
+
+(ex) (index.jsp), (index.mustache), ...
+
+Back = ( (API of WEB-APP + Server) + Database )
+
+(ex) ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
+
+####
+javascript(js) is the media point between Front and Back By URL
 
 # URL and HTTP
 
@@ -71,24 +89,6 @@ Simplely, I think it can also mean 'optimized Menu that can represent the source
 
 (To be supplemented later)
 
-## Analysis of Front and back
-WEB-APP = Front-End + Back-End
-
-![perspective1_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
-
-[image reference](https://blog.dalso.org/language/web/6523)
-
-## components of Front-end, Back-end
-Front = ((html + css) + javascript)
-
-(ex) (index.jsp), (index.mustache), ...
-
-Back = ( (API of WEB-APP + Server) + Database )
-
-(ex) ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
-
-####
-javascript(js) is the media point between Front and Back By URL
 
 ### Core
 [API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
