@@ -56,8 +56,10 @@ And function provides html documents which is, in other words, Front-End.
 
 more specifically, "index page"  like index.jsp, index.mustache, ...
 
-### the related : URL vs URI
+#### URI
 (To be supplemented later)
+
+## HTTP : 
 
 
 # Implementation of WEB-APP
@@ -74,7 +76,7 @@ Spring Framework with Build Tool　　:arrow_right: config and controller.java o
 
 　　　　　　　　　　　　　　　　　:arrow_lower_right: config of AWS and AWS Linux Server
 
-　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS and MariaDB of AWS RDS)
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS
 
 ## the related : CRUD
 Categories of functions based on processing resources like data of DB, ...
@@ -91,7 +93,7 @@ Button sends url that requires change the data of DB, generally based on sub par
 4. Delete
 Button sends url that requires remove the data of DB, generally based on sub part of url.
 
-### Story of CRUD
+#### Story of CRUD
 Click the 'sign in' button of site,and do something(Create)
 
 Click the 'see the detail of account' button after log in,and see the infomations of your account,(Read)
@@ -111,12 +113,10 @@ Simplely, I think it can also mean 'optimized Menu that can represent the source
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
 
-
 ### The Relates
-
 [Server](https://github.com/devsacti/Server)
 
 [Server ; Cloud-Server](https://github.com/devsacti/Cloud-Server-and-Extensions)
 
-# Rererences
+# References
 1. Image of Front-End and Back-End - https://blog.dalso.org/language/web/6523
