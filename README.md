@@ -29,21 +29,19 @@ Back = ( (API of WEB-APP + Server) + Database )
 
 *Server = ( OS + HW ), and Server has at least 2 kinds ; Web Server, Application Server, etc.
 
-#### communications between Front and Back
+#### Flow between Front and Back
 
 Let's assume that you input the primary url and WEB-APP returns the index page,
 
-and it can be regarded as "Menu of Front-End".
+and it can be regarded as "Menu of Web Service".
 
-Generally, Menu of Front-end provides choices of buttens mapped with other urls.
+Generally, Menu of Web Service provides choices of buttens mapped with other urls.
 
 And those urls is mapped with functions of back-end of Electronic Vending Machine
 
-So, you can access the functions that control the resources of web-service.
+So, you can access the functions that control the resources of Web Service.
 
-
-####
-javascript(js) is the media point between Front and Back By URL
+this conception of flow canbe described at the perspective of back-oriented as 'Controller'.
 
 # URL and HTTP
 
