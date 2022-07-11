@@ -1,33 +1,30 @@
 # Overview of WEB-APP
-* Intro : Web Service is 'Electroic Vending Machine'
+* Intro
+* Analysis of Front and Back
+* Implementation
 * URL and HTTP
 
 # Intro
 ![webapp_electronic_vending_machine](./imgs/1.png)
 
+(TO ME) Web Service is 'Electroic Vending Machine'
+
 I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'.
 
-The Electronic vending machine you encounter has 'front' and 'back'.
+The Electronic vending machine you encounter has 'Front' and 'Back'.
 
 It is waiting for calls of client that canbe human's actions, or more specifically calls of web browser like 'chrome'.
 
 Clients call the WEB-APP(Web service Application) by URL.
 
 ## Analysis of Front and back
-WEB-APP = Front-End + Back-End
 
-![perspective1_full-stack](https://user-images.githubusercontent.com/88543657/149053816-3ad0307c-11fb-4fb8-bc60-4311855cbe29.png)
+WEB-APP = Front + Back (= Front-End + Back-End)
 
-[image reference](https://blog.dalso.org/language/web/6523)
+Front = ((html + css) + javascript) ; (index.jsp), (index.mustache), ...
 
-## components of Front-end, Back-end
-Front = ((html + css) + javascript)
-
-(ex) (index.jsp), (index.mustache), ...
-
-Back = ( (API of WEB-APP + Server) + Database )
-
-(ex) ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
+Back = ( (API of WEB-APP + Server) + Database ) ; ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
+*Server = ( OS + HW ), and Server has at least 2 kinds, Web Server or Application Server.
 
 ####
 javascript(js) is the media point between Front and Back By URL
@@ -118,3 +115,6 @@ Spring Framework with Build Tool　　:arrow_right: config and controller.java o
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
+
+# Rererences
+1. Image of Front-End and Back-End - https://blog.dalso.org/language/web/6523
