@@ -11,11 +11,11 @@
 
 I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'.
 
-The Electronic vending machine you encounter has 'Front' and 'Back'.
+The Electronic vending machine you encounter has __'Front and Back'__.
 
 It is waiting for calls of client that canbe human's actions, or more specifically calls of web browser like 'chrome'.
 
-Clients call the WEB-APP(Web service Application) by URL.
+Clients call the WEB-APP(Web service Application) by __URL__.
 
 ## Analysis of Front and back
 
@@ -23,8 +23,11 @@ WEB-APP = Front + Back (= Front-End + Back-End)
 
 Front = ((html + css) + javascript) ; (index.jsp), (index.mustache), ...
 
-Back = ( (API of WEB-APP + Server) + Database ) ; ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-MySQL ), ...
-*Server = ( OS + HW ), and Server has at least 2 kinds, Web Server or Application Server.
+Back = ( (API of WEB-APP + Server) + Database )
+
+; ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-OracleDB ), ...
+
+*Server = ( OS + HW ), and Server has at least 2 kinds ; Web Server, Application Server, etc.
 
 ####
 javascript(js) is the media point between Front and Back By URL
@@ -57,6 +60,31 @@ And those urls is mapped with functions of back-end of Electronic Vending Machin
 
 So, you can access the functions that control the resources of web-service.
 
+
+### Core
+[API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
+
+[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
+
+[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
+
+
+# Implementation of WEB-APP
+
+In my Github, basic framework is 'Spring (boot)'
+
+In this perspective, Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework like myBatis, Server that has runtime like AWS Linux
+
+(ex)
+
+　　　　　　　　　　　　　　　　　:arrow_upper_right: config of jsp and index.jsp
+
+Spring Framework with Build Tool　　:arrow_right: config and controller.java of JAVA-APP + config of myBatis
+
+　　　　　　　　　　　　　　　　　:arrow_lower_right: config of AWS and AWS Linux Server
+
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS and MariaDB of AWS RDS)
+
 ## the related : CRUD
 Categories of functions based on processing resources like data of DB, ...
 
@@ -86,30 +114,6 @@ Simplely, I think it can also mean 'optimized Menu that can represent the source
 
 (To be supplemented later)
 
-
-### Core
-[API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
-
-[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
-
-[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
-
-
-# Implementation of WEB-APP
-
-In my Github, basic framework is 'Spring (boot)'
-
-In this perspective, Spring Framework is a core joint of Front-End tool like jsp, Persitence-Framework like myBatis, Server that has runtime like AWS Linux
-
-(ex)
-
-　　　　　　　　　　　　　　　　　:arrow_upper_right: config of jsp and index.jsp
-
-Spring Framework with Build Tool　　:arrow_right: config and controller.java of JAVA-APP + config of myBatis
-
-　　　　　　　　　　　　　　　　　:arrow_lower_right: config of AWS and AWS Linux Server
-
-　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS and MariaDB of AWS RDS)
 
 ## Implementations of API
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
