@@ -3,7 +3,7 @@
 * URL and HTTP
 
 # Intro
-![webapp_electronic_vending_machine](./imgs/1.png){: width="300" height="300"){: .center}
+<img src="./imgs/1.png  width="200" height="200"/>
 
 I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'.
 
