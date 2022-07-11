@@ -56,10 +56,11 @@ And function provides html documents which is, in other words, Front-End.
 
 more specifically, "index page"  like index.jsp, index.mustache, ...
 
-#### URI
+#### URI : Uniform Resource Identifier
 (To be supplemented later)
 
-## HTTP : 
+## HTTP : Hypertext Transfer Protocol
+(TO ME) Transfer Protocol of WEB
 
 
 # Implementation of WEB-APP
@@ -78,7 +79,7 @@ Spring Framework with Build Tool　　:arrow_right: config and controller.java o
 
 　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS
 
-## the related : CRUD
+## 4 categories of functions of WEB-APP ; CRUD
 Categories of functions based on processing resources like data of DB, ...
 
 1. Create
@@ -102,7 +103,7 @@ Click the 'change the nikckname' button, and do something,(Update)
 
 Click the 'Withdrawal from site' button,(Delete)
 
-## the related : RestFul
+## Useful WEB-APP ; RestFul API
 Simplely, I think it can also mean 'optimized Menu that can represent the sources enough' 
 
 (To be supplemented later)
