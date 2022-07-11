@@ -29,6 +29,19 @@ Back = ( (API of WEB-APP + Server) + Database )
 
 *Server = ( OS + HW ), and Server has at least 2 kinds ; Web Server, Application Server, etc.
 
+#### communications between Front and Back
+
+Let's assume that you input the primary url and WEB-APP returns the index page,
+
+and it can be regarded as "Menu of Front-End".
+
+Generally, Menu of Front-end provides choices of buttens mapped with other urls.
+
+And those urls is mapped with functions of back-end of Electronic Vending Machine
+
+So, you can access the functions that control the resources of web-service.
+
+
 ####
 javascript(js) is the media point between Front and Back By URL
 
@@ -48,17 +61,6 @@ more specifically, "index page"  like index.jsp, index.mustache, ...
 ### the related : URL vs URI
 (To be supplemented later)
 
-# communications between Front and Back
-
-Let's assume that you input the primary url and WEB-APP returns the index page,
-
-and it can be regarded as "Menu of Front-End".
-
-Generally, Menu of Front-end provides choices of buttens mapped with other urls.
-
-And those urls is mapped with functions of back-end of Electronic Vending Machine
-
-So, you can access the functions that control the resources of web-service.
 
 
 ### Core
