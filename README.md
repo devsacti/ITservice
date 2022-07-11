@@ -60,15 +60,6 @@ more specifically, "index page"  like index.jsp, index.mustache, ...
 (To be supplemented later)
 
 
-
-### Core
-[API of WEB-APP : Below 'Implementations'](https://github.com/devsacti/WEB-APP#implementations)
-
-[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
-
-[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
-
-
 # Implementation of WEB-APP
 
 In my Github, basic framework is 'Spring (boot)'
@@ -119,6 +110,13 @@ Simplely, I think it can also mean 'optimized Menu that can represent the source
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
+
+
+### The Relates
+
+[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
+
+[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
 
 # Rererences
 1. Image of Front-End and Back-End - https://blog.dalso.org/language/web/6523
