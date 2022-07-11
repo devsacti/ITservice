@@ -1,20 +1,22 @@
-# Overview
-* Intro
-	* URL
-	* URL and HTTP
+# Overview of WEB-APP
+* Intro : Web Service is 'Electroic Vending Machine'
+* URL and HTTP
 
-# Intro : Approaching to Web service Application on Network
-
+# Intro
+![webapp_electronic_vending_machine](./imgs/1)
 I think WEB-APP can be figuratively mapped with 'Electronic Vending machine'.
 
 The Electronic vending machine you encounter has 'front' and 'back'.
 
-It is waiting for calls of client that canbe humans or other calls of web service like chrome you are using).
+It is waiting for calls of client that canbe human's actions, or more specifically calls of web browser like 'chrome'.
 
 Clients call the WEB-APP(Web service Application) by URL.
 
+
+# URL and HTTP
+
 ## URL : Uniform Resource Locater
-(ex)www.google.com
+(ex)https://www.google.com
 
 Generally, if human user clicks or inserts the certain URL,
 
