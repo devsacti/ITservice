@@ -114,9 +114,9 @@ Simplely, I think it can also mean 'optimized Menu that can represent the source
 
 ### The Relates
 
-[Server : Cloud-Utilizations](https://github.com/devsacti/Cloud-Utilizations)
+[Server](https://github.com/devsacti/Server)
 
-[Database : Impl of Database Access](https://github.com/devsacti/Query-and-Extensions)
+[Server ; Cloud-Server](https://github.com/devsacti/Cloud-Server-and-Extensions)
 
 # Rererences
 1. Image of Front-End and Back-End - https://blog.dalso.org/language/web/6523
