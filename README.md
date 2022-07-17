@@ -114,13 +114,39 @@ Click the 'change the nikckname' button, and do something,(Update)
 
 Click the 'Withdrawal from site' button,(Delete)
 
-## Useful WEB-APP ; RestFul API
-Simplely, I think it can also mean 'optimized Menu that can represent the sources enough' 
+## Analysis2 of WEB-APP
+(TO ME) WEB-APP = Client + API
 
-(To be supplemented later)
+Very similar, but from a different point of view,
 
+The Best Example of Client is 'Android App without DB'.
 
-## Implementations of API
+The Android screen has its own area independent of front like index.jsp .
+
+So, Android App that Requests data of Server which is connected with DBMS
+
+is the best Example of Client.
+
+In this context, An API can be described as receiving a request from a client and returning a response.
+
+#### Restful API
+(TO ME)optimized Menu that can represent the resources enough
+
+Client-Side Language like react, vue of Javascript has much more Role and Reposibility of Front of Web App.
+
+The front-end has become more independent of the back-end, like Android apps.
+
+In this Context, 
+
+I think the existing backend area has been transformed by faithful to the concept of 'receiving and responding to data requests' 
+
+to API.
+
+and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
+
+## Implementations of Web Application
+(TO ME) WEB APP = Front + Back = Client + API
+
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
 [PYTHON-APP](https://github.com/devsacti/PYTHON-APP)
