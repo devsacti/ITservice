@@ -133,11 +133,11 @@ Client-Side Language like react, vue of Javascript has much more Role and Reposi
 
 The front-end has become more independent of the back-end like Android apps.
 
-In this Context, 
+In this Context, I think,
 
-I think the existing backend area has been transformed by faithful to the concept of 'receiving and responding to data requests' 
+the existing backend area canbe regared as API which is faithful to the concept of 'receiving and responding to data requests'.
 
-to API. and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
+and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
 
 ## Implementations of Web Application
 (TO ME) WEB APP = Front + Back = Client + API
