@@ -135,9 +135,7 @@ The front-end has become more independent of the back-end like Android apps.
 
 In this Context, I think,
 
-the existing backend area canbe regared as API which is faithful to the concept of 'receiving and responding to data requests'.
-
-and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
+the existing backend area canbe regared as API which is faithful to the concept of 'receiving and responding to data requests'. A Restful API is an API that effectively responds to a request with appropriate information from resources.
 
 ## Implementations of Web Application
 (TO ME) WEB APP = Front + Back = Client + API
