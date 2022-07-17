@@ -117,32 +117,27 @@ Click the 'Withdrawal from site' button,(Delete)
 ## Analysis2 of WEB-APP
 (TO ME) WEB-APP = Client + API
 
-Very similar, but from a different point of view,
+#### Client
+One of Client is 'Android App without DB' that requests data of server.
 
-The Best Example of Client is 'Android App without DB'.
+Client is Very similar, but different from front of webapp by like jsp.
 
-The Android screen has its own area independent of front like index.jsp .
-
-So, Android App that Requests data of Server which is connected with DBMS
-
-is the best Example of Client.
+jsp is server side script. but Android App is an area independent from the server where the web app is originally installed.
 
 In this context, An API can be described as receiving a request from a client and returning a response.
 
-#### Restful API
-(TO ME)optimized Menu that can represent the resources enough
+#### API
+(TO ME) Restful API
 
 Client-Side Language like react, vue of Javascript has much more Role and Reposibility of Front of Web App.
 
-The front-end has become more independent of the back-end, like Android apps.
+The front-end has become more independent of the back-end like Android apps.
 
 In this Context, 
 
 I think the existing backend area has been transformed by faithful to the concept of 'receiving and responding to data requests' 
 
-to API.
-
-and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
+to API. and, A Restful API is an API that effectively responds to a request with appropriate information from resources.
 
 ## Implementations of Web Application
 (TO ME) WEB APP = Front + Back = Client + API
