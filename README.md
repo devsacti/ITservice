@@ -27,7 +27,7 @@ Back = ( (API of WEB-APP + Server) + Database )
 
 ; ( (config and controller.java of JAVA-APP + AWS Linux Server) + mybatis-OracleDB ), ...
 
-*Server = ( OS + HW ), and Server has at least 2 kinds ; Web Server, Application Server, etc.
+*Server = ( OS + HW ), and Server has at least 2 kinds and combination of those; Web Server, Web Application Server(WAS), etc.
 
 #### Flow between Front and Back
 
@@ -39,9 +39,11 @@ Generally, Menu of Web Service provides choices of buttens mapped with other url
 
 And those urls is mapped with functions of back-end of Electronic Vending Machine
 
-So, you can access the functions that control the resources of Web Service.
+So, You can access the functions that control the resources of Web Service.
 
-this conception of flow canbe described at the perspective of back-oriented as 'Controller'.
+
+###### control? then Controller
+this conception of flow canbe described at the perspective of back-oriented as 'Controller of MVC pattern'.
 
 # URL and HTTP
 
@@ -60,8 +62,13 @@ more specifically, "index page"  like index.jsp, index.mustache, ...
 (To be supplemented later)
 
 ## HTTP : Hypertext Transfer Protocol
-(TO ME) Transfer Protocol of WEB
+(TO ME) Data Transfer Protocol of WEB
 
+Hypertext is major one of Data of WEB.
+
+but this H.Y.P.E.R.T.E.X.T makes me think hyper, hyper, hyper , etc
+
+ To begin with, i will regard it Data.
 
 # Implementation of WEB-APP
 
@@ -71,13 +78,17 @@ In this perspective, Spring Framework is a core joint of Front-End tool like jsp
 
 (ex)
 
-　　　　　　　　　　　　　　　　　:arrow_upper_right: config of jsp and index.jsp
+　　　　　　　　　　　　　　　　　:arrow_upper_right: Front-End like index.jsp
 
-Spring Framework with Build Tool　　:arrow_right: config and controller.java of JAVA-APP + config of myBatis
+Spring Framework with Build Tool　　:arrow_right: Back-End like HomeController.java
 
-　　　　　　　　　　　　　　　　　:arrow_lower_right: config of AWS and AWS Linux Server
+　　　　　　　　　　　　　　　　　:arrow_lower_right: Server
 
-　　　　　　　　　　　　　　　　　:arrow_lower_right:  config of AWS RDS
+　　　　　　　　　　　　　　　　　:arrow_lower_right:  DBMS - Database
+
+####
+Above description maybe suggests blueprint of implementation of web app
+but to implement web app, Many Configurations of jsp, Spring with java & mybatis, Server, DBMS.....
 
 ## 4 categories of functions of WEB-APP ; CRUD
 Categories of functions based on processing resources like data of DB, ...
