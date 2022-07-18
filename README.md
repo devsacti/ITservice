@@ -126,8 +126,8 @@ jsp is server side script. but Android App is an area independent from the serve
 
 In this context, An API can be described as receiving a request from a client and returning a response.
 
-#### API
-(TO ME) Restful API
+#### REST API
+(TO ME) ?
 
 Client-Side Language like react, vue of Javascript has much more Role and Reposibility of Front of Web App.
 
@@ -138,7 +138,7 @@ In this Context, I think,
 the existing backend area canbe regared as API which is faithful to the concept of 'receiving and responding to data requests'. A Restful API is an API that effectively responds to a request with appropriate information from resources.
 
 ## Implementations of Web Application
-(TO ME) WEB APP = Front + Back = Client + API
+(TO ME) WEB APP = Front + Back = Client + REST API
 
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
 
