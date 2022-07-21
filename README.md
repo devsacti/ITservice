@@ -66,9 +66,9 @@ more specifically, "index page"  like index.jsp, index.mustache, ...
 
 Hypertext is major one of Data of WEB.
 
-but this H.Y.P.E.R.T.E.X.T makes me think hyper, hyper, hyper , etc
+But this H.Y.P.E.R.T.E.X.T makes me think hyper, hyper, hyper , etc
 
- To begin with, i will regard it Data.
+To begin with, i will regard it Data.
 
 # Implementation of WEB-APP
 
@@ -114,20 +114,22 @@ Click the 'change the nikckname' button, and do something,(Update)
 
 Click the 'Withdrawal from site' button,(Delete)
 
-## Analysis2 of WEB-APP
-(TO ME) WEB-APP = Client + API
+## Extension : Analysis2 of WEB-APP
+(TO ME) WEB-APP = Client + REST API
 
 #### Client
-One of Client is 'Android App without DB' that requests data of server.
+(TO ME) Completely independent Front from implementation of back of webapp.
 
-Client is Very similar, but different from front of webapp by like jsp.
+One of Client is 'Android App without DB' that requests data of server. This client is executable and accessible independently of the backend from an implementation point of view.
 
-jsp is server side script. but Android App is an area independent from the server where the web app is originally installed.
+Recently, vue.js and react.js are also means of realizing these clients.
 
-In this context, An API can be described as receiving a request from a client and returning a response.
+Of course, jsp is also semantically a client. However, from an implementation point of view, there is not much difference from a backend such as HomeController.java. It must be written and executed at the same time.
 
-#### REST API
-(TO ME) ?
+These clients receive additional information from the REST API and provide richer services.
+
+#### REST API :  REpresentational State Transfer API
+(TO ME) Completely independent back from implementation of front of webapp.
 
 Client-Side Language like react, vue of Javascript has much more Role and Reposibility of Front of Web App.
 
@@ -135,9 +137,17 @@ The front-end has become more independent of the back-end like Android apps.
 
 In this Context, I think,
 
-the existing backend area canbe regared as API which is faithful to the concept of 'receiving and responding to data requests'. A Restful API is an API that effectively responds to a request with appropriate information from resources.
+A simple understanding of REST API is that it is independent of the front when implemented.
 
-## Implementations of Web Application
+__But__ I found that this easy understanding is too humble to comprehend REST.
+
+In my opinion, the state of REST can mean the state of a resource. And this resource can be a table in the database. It can also refer to a specific Java object.
+
+In this respect, REST is simply too comprehensive to understand.
+
+However, it promises to be later, and for now, it ends with several references.
+
+## My Implementations of Web Application
 (TO ME) WEB APP = Front + Back = Client + REST API
 
 [JAVA-APP](https://github.com/devsacti/JAVA-APP)
@@ -151,3 +161,7 @@ the existing backend area canbe regared as API which is faithful to the concept 
 
 # References
 1. Image of Front-End and Back-End - https://blog.dalso.org/language/web/6523
+2. REST API ; redhat - https://www.redhat.com/ko/topics/api/what-is-a-rest-api
+3. REST API ; aws - https://aws.amazon.com/ko/what-is/restful-api/
+4. REST API ; ibm - https://www.ibm.com/kr-ko/cloud/learn/rest-apis
+5. REST API ; gmlwjd9405 - https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
