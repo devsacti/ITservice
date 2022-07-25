@@ -120,11 +120,11 @@ Click the 'Withdrawal from site' button,(Delete)
 #### Client
 (TO ME) Completely independent Front from implementation of back of webapp.
 
-One of Client is 'Android App without DB' that requests data of server. This client is executable and accessible independently of the backend from an implementation point of view.
+One of Client is 'Android App without DB' that requests data of server. This client is executable and accessible independently of the backend in perspective of implementation.
 
 Recently, vue.js and react.js are also means of realizing these clients.
 
-Of course, jsp is also semantically a client. However, from an implementation point of view, there is not much difference from a backend such as HomeController.java. It must be written and executed at the same time.
+Of course, jsp is also semantically a client. However, in perspective of implementation point, there is not much difference from a backend such as HomeController.java. It must be written and executed at the same time.
 
 These clients receive additional information from the REST API and provide richer services.
 
@@ -139,13 +139,13 @@ In this Context, I think,
 
 A simple understanding of REST API is that it is independent of the front when implemented.
 
-__But__ I found that this easy understanding is too humble to comprehend REST.
+__But__ 
+
+I found that this easy understanding is too humble to comprehend REST.
 
 In my opinion, the state of REST can mean the state of a resource. And this resource can be a table in the database. It can also refer to a specific Java object.
 
-In this respect, REST is simply too comprehensive to understand.
-
-However, it promises to be later, and for now, it ends with several references.
+However,for now, I ends with several references.
 
 ## My Implementations of Web Application
 (TO ME) WEB APP = Front + Back = Client + REST API
